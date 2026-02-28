@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hương Vintage | Thời trang nữ</title>
+    <meta name="description" content="Hương Vintage - Quảng bá thương hiệu thời trang nữ phong cách cổ điển." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cocoa: '#5f4638',
+              nude: '#f8efe8',
+              rose: '#d4978a',
+              olive: '#8d9576'
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-nude text-cocoa">
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="./src/app.jsx"></script>
+  </body>
+</html>
